@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "info-card.svg")
 STATIC = bool(os.environ.get("STATIC"))
 
-W, H = 480, 376
+W, H = 480, 430
 PAD = 20
 TITLEBAR_H = 30
 KEY_X = PAD
@@ -47,20 +47,24 @@ HOST = "antoine-devfr"   # shown as  antoine-devfr@github  in the header
 
 ROWS = [
     ("host",),
-    ("kv", "Now", "Développeur @ Xeolux"),
-    ("kv", "Focus", "Sécurité web · Privacy · Open Source"),
-    ("kv", "Since", "2025 — autodidacte, créer & partager"),
+    ("kv", "Role",   "Dev @ Xeolux · Sécurité & Privacy"),
+    ("kv", "Focus",  "Chrome Extensions · WebRTC · OSINT"),
+    ("kv", "Status", "Open Source — apprendre & partager"),
     ("gap",),
     ("sec", "Stack"),
-    ("kv", "Lang", "JavaScript · Python · HTML / CSS"),
-    ("kv", "Web", "Chrome Extensions · Web APIs · Node"),
-    ("kv", "Sécu", "WebRTC · Fingerprinting · OSINT"),
-    ("kv", "Outils", "Git · VS Code · Linux"),
+    ("kv", "Lang",   "JavaScript · Python · HTML/CSS"),
+    ("kv", "Sécu",   "WebRTC leaks · Fingerprinting · CSP"),
+    ("kv", "Outils", "Git · VS Code · Chrome DevTools"),
+    ("kv", "IA",     "Claude · GPT · prompting & agents"),
     ("gap",),
-    ("sec", "Highlights"),
-    ("bul", "browser-protection-extension — 22 boucliers actifs"),
-    ("bul", "web-analyzer-pro — audit SEO + sécu en console"),
-    ("bul", "Open Source : Créer, apprendre, partager 🚀"),
+    ("sec", "Projets phares"),
+    ("bul", "browser-protection-ext  —  22 shields actifs"),
+    ("bul", "web-analyzer-pro  —  audit SEO/sécu en console"),
+    ("bul", "webrtc-recon-toolkit  —  recon réseau avancé"),
+    ("gap",),
+    ("sec", "Contact"),
+    ("bul", "Instagram : @antoine.devfr"),
+    ("bul", "GitHub   : antoine-devfr"),
 ]
 
 

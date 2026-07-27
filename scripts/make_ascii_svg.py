@@ -23,19 +23,18 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "..", "source-prepped.png")
 OUT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(HERE, "..", "avi-ascii.svg")
 
-COLS = 100
-ROWS = 53
+COLS = 110
+ROWS = 58
 CELL_W = 8
 CELL_H = 15
-RAMP = " .`:-=+*cs#%@"  # bright(sparse) -> dark(dense); leading space clears bg
+RAMP = " .,:;i1tfILCJYUZO0Qoahkbdpwm*WMB8@"  # 35 chars, ramp plus riche
 
-# the prepped image already has bg removed + CLAHE local contrast, so only
-# light global tuning is needed here.
-CONTRAST = 1.05
+# the prepped image already has bg removed + CLAHE local contrast applied.
+CONTRAST = 1.7
 BRIGHTNESS = 1.0
-GAMMA = 1.18          # >1 brightens mids -> face lands in sparser chars
-SHARPEN = False
-WHITE_FLOOR = 0.80    # luminance above this is forced to blank (space)
+GAMMA = 0.72          # <1 = image plus lumineuse -> fond blanc, visage net
+SHARPEN = True
+WHITE_FLOOR = 0.66    # seuil fond blanc -> espace
 
 PAD = 20
 TITLEBAR_H = 30

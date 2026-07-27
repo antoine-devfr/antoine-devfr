@@ -14,8 +14,8 @@
 <p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JS"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/>
-  <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome"/>
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"/>
   <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white" alt="VSCode"/>
 </p>
@@ -37,42 +37,13 @@
 
 <table>
 <tr>
-<td width="50%">
+<td width="100%">
 
-**[🛡️ browser-protection-extension](https://github.com/antoine-devfr/browser-protection-extension)**
+**[🔒 env-sentinel](https://github.com/antoine-devfr/env-sentinel)** &nbsp; [![npm](https://img.shields.io/npm/v/env-sentinel?style=flat-square)](https://www.npmjs.com/package/env-sentinel) [![CI](https://img.shields.io/github/actions/workflow/status/antoine-devfr/env-sentinel/ci.yml?style=flat-square&label=CI)](https://github.com/antoine-devfr/env-sentinel/actions)
 
-Extension Chrome qui bloque les fuites WebRTC, le fingerprinting navigateur et le vol de données. **22 protections actives** pour préserver l'anonymat en ligne.
+Valide tes variables d'environnement au démarrage et **échoue fort** si un secret est manquant, trop court, ou défini à une valeur faible connue (`secret`, `changeme`, `password`…). Un fichier de config, cinq langages, zéro surprise en production.
 
-`JavaScript` `Chrome Extension` `Privacy` `WebRTC`
-
-</td>
-<td width="50%">
-
-**[🔍 web-analyzer-pro](https://github.com/antoine-devfr/web-analyzer-pro)**
-
-Analyseur web injectable via la console du navigateur. Audit SEO, sécurité, performance, OSINT et détection de technologies — **tout en temps réel**.
-
-`JavaScript` `SEO` `OSINT` `Security`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[📡 webrtc-recon-toolkit](https://github.com/antoine-devfr/webrtc-recon-toolkit)**
-
-Outil de reconnaissance avancé exploitant les fuites WebRTC pour collecter des informations réseau et effectuer du fingerprinting de périphériques.
-
-`JavaScript` `WebRTC` `Network` `Fingerprinting`
-
-</td>
-<td width="50%">
-
-**[🚀 Nemesis-Launcher](https://github.com/antoine-devfr/Nemesis-Launcher)**
-
-Launcher personnalisé en HTML/CSS — interface rapide et minimaliste pour accéder à ses outils et ressources du quotidien.
-
-`HTML` `CSS` `UI`
+`Node.js` `Python` `Go` `PHP` `Ruby` `CLI` `Security` `DevOps`
 
 </td>
 </tr>

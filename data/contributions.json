@@ -1,13 +1,13 @@
 {
   "username": "antoine-devfr",
-  "generated_at": "2026-07-27T19:31:14Z",
+  "generated_at": "2026-07-28T08:26:32Z",
   "range": {
     "start": "2025-07-27",
-    "end": "2026-07-27"
+    "end": "2026-07-28"
   },
-  "total_contributions": 33,
-  "active_days": 6,
-  "avg_per_active_day": 5.5,
+  "total_contributions": 4,
+  "active_days": 2,
+  "avg_per_active_day": 2.0,
   "current_streak": {
     "length": 1,
     "start": "2026-07-27",
@@ -15,12 +15,12 @@
   },
   "longest_streak": {
     "length": 1,
-    "start": "2025-12-10",
-    "end": "2025-12-10"
+    "start": "2026-03-26",
+    "end": "2026-03-26"
   },
   "best_day": {
-    "date": "2025-12-10",
-    "count": 12
+    "date": "2026-07-27",
+    "count": 3
   },
   "monthly": [
     {
@@ -45,7 +45,7 @@
     },
     {
       "month": "2025-12",
-      "total": 21
+      "total": 0
     },
     {
       "month": "2026-01",
@@ -53,11 +53,11 @@
     },
     {
       "month": "2026-02",
-      "total": 5
+      "total": 0
     },
     {
       "month": "2026-03",
-      "total": 5
+      "total": 1
     },
     {
       "month": "2026-04",
@@ -73,7 +73,7 @@
     },
     {
       "month": "2026-07",
-      "total": 2
+      "total": 3
     }
   ],
   "days": [
@@ -623,7 +623,7 @@
     },
     {
       "date": "2025-12-10",
-      "count": 12
+      "count": 0
     },
     {
       "date": "2025-12-11",
@@ -695,7 +695,7 @@
     },
     {
       "date": "2025-12-28",
-      "count": 9
+      "count": 0
     },
     {
       "date": "2025-12-29",
@@ -855,7 +855,7 @@
     },
     {
       "date": "2026-02-06",
-      "count": 3
+      "count": 0
     },
     {
       "date": "2026-02-07",
@@ -931,7 +931,7 @@
     },
     {
       "date": "2026-02-25",
-      "count": 2
+      "count": 0
     },
     {
       "date": "2026-02-26",
@@ -1019,7 +1019,7 @@
     },
     {
       "date": "2026-03-19",
-      "count": 5
+      "count": 0
     },
     {
       "date": "2026-03-20",
@@ -1047,7 +1047,7 @@
     },
     {
       "date": "2026-03-26",
-      "count": 0
+      "count": 1
     },
     {
       "date": "2026-03-27",
@@ -1539,7 +1539,11 @@
     },
     {
       "date": "2026-07-27",
-      "count": 2
+      "count": 3
+    },
+    {
+      "date": "2026-07-28",
+      "count": 0
     }
   ]
 }

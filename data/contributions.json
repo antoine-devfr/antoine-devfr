@@ -1,9 +1,9 @@
 {
   "username": "antoine-devfr",
-  "generated_at": "2026-08-25T06:38:05Z",
+  "generated_at": "2026-08-26T06:39:29Z",
   "range": {
     "start": "2025-08-24",
-    "end": "2026-08-25"
+    "end": "2026-08-26"
   },
   "total_contributions": 4,
   "active_days": 2,
@@ -1543,6 +1543,10 @@
     },
     {
       "date": "2026-08-25",
+      "count": 0
+    },
+    {
+      "date": "2026-08-26",
       "count": 0
     }
   ]
